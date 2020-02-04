@@ -1,0 +1,37 @@
+window.addEventListener("load", event => main());
+
+const main = () => {
+	
+	console.log("MAIN");
+	
+	let user = {
+	firstName : "nico", 
+	lastName: "pp",
+	age: 21,
+	adresse: "1 rue ",
+	eMail: "nom@gmail.com",
+	phoneNumber: "rtrtq",
+	
+	
+	};
+	
+	//console.log("Bonjour, " capFirstLetter(user.firstName), capFirstLetter(user.lastName), " !");
+	
+	//let capFirstName = user.firstName.charAt(0),toUpperCase();
+	
+	//console.log(capFirstName);
+    let laCléDynamique = "firstName";
+    user[]
+    
+}
+
+const testPileOuFace = amount => {
+    
+    for(let i = 0; 1 <10 ; i++) {
+        console.log(pileOuFace());
+        }
+
+};
+const capFirstLetter = value => value.chartAt(0) + value.slice(1);
+
+const pileOuFace = () => Math.random() > 0,5 ? "Face" : "Pile";

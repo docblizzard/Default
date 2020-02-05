@@ -1,15 +1,24 @@
 Ecrire une classe User          ( GitHub marak/faker ) -> Librairie 
--First Name
--Last Name
+- First Name                         
+- Last Name                      
 - eMail
 - numTel
 - age
 
 Ecrire classe employee extends User
-- job Title
+- Job Title
 - Salaire
--génere un tableau de 100 employées 
--Ecrire méthode
+- Génerer un tableau de 100 employées 
+- Ecrire une méthode =>
     - age moyen 
     - Salaire moyen 
 
+
+
+Aide de code =>          (min, max) => Math.floor(Math.random()*(max-min+1))+min;
+
+
+pour utiliser faker = > faker.name.lastName()
+                        faker.name.firstName()
+                        faker.internet.email()
+                        

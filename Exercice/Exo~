@@ -21,4 +21,12 @@ Aide de code =>          (min, max) => Math.floor(Math.random()*(max-min+1))+min
 pour utiliser faker = > faker.name.lastName()
                         faker.name.firstName()
                         faker.internet.email()
+
+
+Cours:
+
+Exemple d'utulisation map:
+
+arg = arg. morph(arg => arg * 2 );
+                       
                         

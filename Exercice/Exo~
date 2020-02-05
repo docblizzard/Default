@@ -1,0 +1,15 @@
+Ecrire une classe User          ( GitHub marak/faker ) -> Librairie 
+-First Name
+-Last Name
+- eMail
+- numTel
+- age
+
+Ecrire classe employee extends User
+- job Title
+- Salaire
+-génere un tableau de 100 employées 
+-Ecrire méthode
+    - age moyen 
+    - Salaire moyen 
+

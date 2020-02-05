@@ -25,8 +25,25 @@ pour utiliser faker = > faker.name.lastName()
 
 Cours:
 
-Exemple d'utulisation map:
+Exemple d'utilisation map:
 
 arg = arg. morph(arg => arg * 2 );
+
+Ancien code vs nouveau : function(arg) {     ->      arg => { arg * 2 
+                            return arg *2               return arg   
+                                                        }                        
+[1,2,3].map((val)=> {
+    return *2;
+};
+[ u,v,w].map(user => user.salary);
+
+
+Exemple d'utilisation reduce:
+
+[1,2,3]reduce ((acc, tab) => {      ou bien comme ça->       [1,2,3].reduce((acc,tab)=> acc + tab, 0);
+    return acc + tab;
+
+
+};
                        
                         
